@@ -1,4 +1,4 @@
-# projects
+# Computer Programming I: Python Projects
   Let me know what language to use, Personally I prefer English.
 
   The folder "stuff" contains random algorithms that I either wanted to write
