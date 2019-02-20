@@ -1,9 +1,9 @@
 # Computer Programming I: Python Projects
-  Let me know what language to use, Personally I prefer English.
+Let me know what language to use, Personally I prefer English.
 
-  The folder "stuff" contains random algorithms that I either wanted to write
+The folder "stuff" contains random algorithms that I either wanted to write
 or the ones we wrote in class.
 
-  The homeworks will be in the root directory.
+The homeworks will be in the root directory.
 
 -Furkan
