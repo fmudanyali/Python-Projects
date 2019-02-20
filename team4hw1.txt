@@ -1,0 +1,77 @@
+Furkan MUDANYALI 20181701088
+Emir ÖZTÜRK 20181701062
+
+1-
+pen purple
+st()
+fd 100
+rt 90
+fd 100
+rt 90
+fd 100
+rt 90
+fd 100
+
+  We followed the instructions and saw that we have to first draw a line and rotate by 90 degrees. Repeating this process gives us a square.
+
+2-
+pen purple
+st()
+rt 90
+fd 100
+rt 90
+fd 100
+rt 90
+fd 100
+rt 90
+fd 100
+rt 30
+fd 100
+rt 120
+fd 100
+
+  We already knew how to draw a square, so in order to draw a triangle, we had to turn 150 degrees in total since we already had a line at the bottom.
+We first rotated 30 degrees and drew 100 units of line, and then rotated the turtle 120 degrees and drew 100 units of line again. This gave us a perfect roof.
+
+3-
+pen purple
+st()
+for [1..4]
+  #Indented commands
+  #are repeated
+  rt 90
+  fd 100
+#These commands are not repeated
+rt 30
+fd 100
+rt 120
+fd 100
+
+  We learned how to make loops.
+
+4-
+pen purple
+st()
+fd 100
+rt 72
+fd 100
+rt 72
+fd 100
+rt 72
+fd 100
+rt 72
+fd 100
+
+  We found out that we have to draw a line and rotate 72 degrees and repeat this process 5 times.
+How we found out that it's 72 degrees is a pentagon's inner angle is 108 degrees, So we subtracted 108 from 180 and we found 72.
+
+5-
+pen purple
+st()
+sides = 7 // or 5, 6, whatever you want.
+for [1..sides]
+  rt 360/sides
+  fd 100
+
+  We knew how to make loops, so in order to get what shape the user wants, we had to assign a variable and use that variable several times in the process.
+Dividing 360 by number of sides gives of how much degrees we have to rotate. Using that we completed our program.
