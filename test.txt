@@ -1,6 +1,0 @@
-This is a test.
-Yo.
-Let's see how this works.
-Removed this line and replaced it with something else.
-I see.
-Cool beans.
