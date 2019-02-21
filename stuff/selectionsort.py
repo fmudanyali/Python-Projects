@@ -14,7 +14,7 @@ for a in range(len(toSort)):
         if toSort[currMin]>toSort[b]:
             #set our current minimum to b
             currMin = b
-    #replace current minumumth element with ath element
+    #replace current minumumth element with ath element; swap cards
     toSort[currMin],toSort[a]=toSort[a],toSort[currMin]
 #a starts at 0, gets added 1 each loop, contanues untal ats equal to toSort's saze
 for a in range(len(toSort)):
