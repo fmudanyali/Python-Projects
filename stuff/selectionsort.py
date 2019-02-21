@@ -18,7 +18,7 @@ for i in range(len(toSort)):
     toSort[currMin],toSort[i]=toSort[i],toSort[currMin]
 #i starts at 0, gets added 1 each loop, continues until its equal to toSort's size
 for i in range(len(toSort)):
-    #write ith element of needsort and add space
+    #write ith element of toSort and add space
     stdio.write(str(toSort[i])+" ")
 #add a line break when everything is finished
 stdio.writeln()
