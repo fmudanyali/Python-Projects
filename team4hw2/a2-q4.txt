@@ -1,0 +1,13 @@
+Furkan Mudanyalı  20181701088
+Emir Öztürk       20181701062
+
+stdio.writeln(a)
+writes a as is, a float.
+stdio.writeln(a + 1.0)
+Add 1.0 to the a float.
+stdio.writeln(8 // int(a))
+Divides 8 by a converted to integer, also omits the decimals. The result is integer.
+stdio.writeln(8.0 // a)
+Divides 8 by a, also omits the decimals. The result is float.
+stdio.writeln(int(8.0 / a))
+Divides 8 by a, but converts it to integer, omitting decimals.
