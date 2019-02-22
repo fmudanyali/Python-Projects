@@ -5,3 +5,9 @@ Bilin Neyapti,      20141302356,  Mechanical Engineering
 Dursun Durdu,       20161201010,  Business
 Durmuş Dursunlar,   20111501234,  Accounting
 Zühtü Zühüren,      20121562353,  Janitor
+Kemal Kesal,        20231232323,  Has PhD in Sci-Fi
+Recep Özgüven,      20341323532,  Is not alive yet
+Bindir Bindirene,   19982341232,  The oldest professor
+Kadir Has,          00000000001,  Our founder father
+Hakkı Rızıkullah,   20161302344,  His brother
+I'm Hungry,         53770800851,  I should eat something
