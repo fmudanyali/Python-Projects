@@ -1,5 +1,8 @@
 #!/usr/local/bin/python3
 import stdio,sys
+####CLARIFICATION####
+#this is dirty as hell
+
 #exports colors from colors.py
 from colors import *
 #assign a blank array
