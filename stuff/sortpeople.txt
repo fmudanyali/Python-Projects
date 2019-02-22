@@ -1,0 +1,7 @@
+Emir Öztürk,        20181701062,  Computer Engineering
+Furkan Mudanyalı,   20181701062,  Computer Engineering
+Hakkı Rızık,        20161302343,  Mechanical Engineering
+Bilin Neyapti,      20141302356,  Mechanical Engineering
+Dursun Durdu,       20161201010,  Business
+Durmuş Dursunlar,   20111501234,  Accounting
+Zühtü Zühüren,      20121562353,  Janitor
