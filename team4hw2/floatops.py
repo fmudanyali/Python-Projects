@@ -1,17 +1,10 @@
 #!/usr/local/bin/python3
 #Furkan Mudanyalı 20181701088
 #Emir Öztürk      20181701062
-import stdio
-import sys
+import stdio,sys
 
-a = float(sys.argv[1])
-b = float(sys.argv[2])
-total=a+b
-diff=a-b
-prod=a*b
-quot=a//b
-rem=a%b
-exp=a**b
+a,b=float(sys.argv[1]),float(sys.argv[2])
+total,diff,prod,quot,rem,exp=a+b,a-b,a*b,a//b,a%b,a**b
 stdio.writeln(str(a)+" + "+str(b)+" = "+str(total))
 stdio.writeln(str(a)+" - "+str(b)+" = "+str(diff))
 stdio.writeln(str(a)+" * "+str(b)+" = "+str(prod))
