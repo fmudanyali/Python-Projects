@@ -1,16 +1,31 @@
 #!/usr/local/bin/python3
-import sys,stdio,math
+import sys,stdio,math,time
 prime=int(sys.argv[1])
 primes=[]
 j="asd"
-for i in range(2,prime):
-    for k in range(2,i+1):
-        if i%k==0 and not i==k:
+start=time.time()
+if prime==3:
+    primes.append(2)
+    primes.append(3)
+    stdio.writeln(primes)
+    sys.exit()
+elif prime==2:
+    primes.append(2)
+    stdio.writeln(primes)
+    sys.exit()
+elif prime<2:
+    stdio.writeln("none")
+    sys.exit()
+primes.append(2)
+primes.append(3)
+for i in range(3,prime+1,2):
+    for k in range(2,int(i**0.5)+1):
+        if i%k==0 and i!=k:
             j="asd"
             break
-        else:
-            k+=1
-            j=i
+        j=i
     if j!="asd":
         primes.append(j)
 stdio.writeln(len(primes))
+end=time.time()
+print(str(round(end-start,3))+" Seconds")
