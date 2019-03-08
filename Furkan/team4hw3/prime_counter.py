@@ -8,7 +8,7 @@ primes=[]
 j="asd"
 #just to see how long it takes
 start=time.time()
-#Check if the argument is lower than 3, if so, finish the program
+#Check if the argument is >=3, if so, finish the program
 #without any calculation.
 if prime==3:
     primes.append(2)
@@ -39,6 +39,7 @@ for i in range(3,prime+1,2):
     #If our dummy hasn't been reset, append it to our primes array.
     if j!="asd":
         primes.append(j)
+#Prints the desired value.
 stdio.writeln(len(primes))
 end=time.time()
 #Prints the elapsed time.
