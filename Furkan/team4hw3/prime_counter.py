@@ -26,7 +26,7 @@ elif prime<2:
 primes.append(2)
 primes.append(3)
 #Start from 3, increase 2 by 2 for increible hihg sped.
-#Since there is no reason to check for multiples of 2.
+#Since there is no reason to check for even numbers.
 for i in range(3,prime+1,2):
     for k in range(2,int(i**0.5)+1):
         if i%k==0 and i!=k:
