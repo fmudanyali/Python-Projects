@@ -1,4 +1,0 @@
-introcs.egg-info/PKG-INFO
-introcs.egg-info/SOURCES.txt
-introcs.egg-info/dependency_links.txt
-introcs.egg-info/top_level.txt

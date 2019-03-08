@@ -1,4 +1,6 @@
 #!/usr/local/bin/python3
+#Emir Öztürk      20181701062
+#Furkan Mudanyalı 20181701088
 import sys,stdio
 stdio.writeln("1st Hello")
 stdio.writeln("2nd Hello")

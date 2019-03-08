@@ -1,4 +1,6 @@
 #!/usr/local/bin/python3
+#Emir Öztürk      20181701062
+#Furkan Mudanyalı 20181701088
 import stdio,sys
 if sys.argv[2] == "Fahrenheit":
     F=float(sys.argv[1])
