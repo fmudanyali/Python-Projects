@@ -8,7 +8,7 @@ primes=[]
 j="asd"
 #just to see how long it takes
 start=time.time()
-#Check if the argument is >=3, if so, finish the program
+#Check if the argument is <=3, if so, finish the program
 #without any calculation.
 if prime==3:
     primes.append(2)
