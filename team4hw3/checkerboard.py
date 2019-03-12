@@ -2,7 +2,10 @@
 #Emir Öztürk      20181701062
 #Furkan Mudanyalı 20181701088
 import sys,stdio
-for i in range(int(sys.argv[1])):
-    if i%2!=0: stdio.write(" ")
-    for k in range(int(sys.argv[1])):stdio.write("* ")
-    stdio.writeln("")
+def checkerboard(x):
+    for i in range(x):
+        if i%2!=0: stdio.write(" ")
+        for k in range(x):stdio.write("* ")
+        stdio.writeln("")
+if len(sys.argv)<2:stdio.writeln("Please give me an argument.")
+else: checkerboard(int(sys.argv[1]))
