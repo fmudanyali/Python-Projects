@@ -1,11 +1,10 @@
 #!/usr/local/bin/python3
 #Emir Öztürk      20181701062
 #Furkan Mudanyalı 20181701088
-import sys,stdio,math,time
+import sys,stdio,time
 prime=int(sys.argv[1])
-#Initializing our array and dummy variable.
+#Initializing our array.
 primes=[]
-j="asd"
 #just to see how long it takes
 start=time.time()
 #Check if the argument is <=3, if so, finish the program
@@ -13,32 +12,29 @@ start=time.time()
 if prime==3:
     primes.append(2)
     primes.append(3)
-    stdio.writeln(primes)
+    stdio.writeln(len(primes))
     sys.exit()
 elif prime==2:
     primes.append(2)
-    stdio.writeln(primes)
+    stdio.writeln(len(primes))
     sys.exit()
 elif prime<2:
     stdio.writeln("none")
     sys.exit()
-#We all know 2 and 3 are primes.
+#We all know 2 is a prime.
 primes.append(2)
-primes.append(3)
 #Start from 3, increase 2 by 2 for increible hihg sped.
 #Since there is no reason to check for even numbers.
 for i in range(3,prime+1,2):
-    for k in range(2,int(i**0.5)+1):
+    #Initialize condition.
+    j=True
+    for k in range(3,int(i**0.5)+1,2):
         if i%k==0 and i!=k:
-            #If this number can be divided perfectly, reset our
-            #dummy variable and exit the loop.
-            j="asd"
+            #If this statement is true, change our condition to false.
+            j=False
             break
-        #Assign this number to our dummy.
-        j=i
-    #If our dummy hasn't been reset, append it to our primes array.
-    if j!="asd":
-        primes.append(j)
+    #Assign i if our condition is true.
+    if j:primes.append(i)
 #Prints the desired value.
 stdio.writeln(len(primes))
 end=time.time()
