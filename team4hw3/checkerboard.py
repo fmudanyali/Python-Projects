@@ -8,4 +8,5 @@ def checkerboard(x):
         for k in range(x):stdio.write("* ")
         stdio.writeln("")
 if len(sys.argv)<2:stdio.writeln("Please give me an argument.")
+elif not sys.argv[1].isdigit():stdio.writeln("Please give me a number.")
 else: checkerboard(int(sys.argv[1]))

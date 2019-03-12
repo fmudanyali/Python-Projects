@@ -40,6 +40,6 @@ def doPrime(x):
     end=time.time()
     #Prints the elapsed time.
     print(str(round(end-start,3))+" Seconds")
-
 if len(sys.argv)<2:stdio.writeln("Please give me an argument.")
+elif not sys.argv[1].isdigit: stdio.writeln("Please give me a number.")
 else:doPrime(int(sys.argv[1]))

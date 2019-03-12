@@ -2,9 +2,6 @@
 #Emir Öztürk      20181701062
 #Furkan Mudanyalı 20181701088
 import stdio,sys
-if not sys.argv[1].isdigit():
-    stdio.writeln("Please give me a number.")
-    sys.exit()
 def temperature(x,y):
     if y == "Fahrenheit" or y == "fahrenheit" or y == "F":
         F=x
@@ -25,4 +22,5 @@ def temperature(x,y):
     stdio.writeln("Fahrenheit = "+str(F))
     stdio.writeln("Kelvin = "+str(K))
 if len(sys.argv)<3: stdio.writeln("Please give me 2 arguments.")
+elif not sys.argv[1].isdigit():stdio.writeln("Please give me a number.")
 else: temperature(float(sys.argv[1]),sys.argv[2])
