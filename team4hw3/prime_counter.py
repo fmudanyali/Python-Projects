@@ -33,7 +33,7 @@ def doPrime(x):
                 #If this statement is true, change our condition to false.
                 j=False
                 break
-        #Assign i if our condition is true.
+        #Append i if our condition is true.
         if j:primes.append(i)
     #Prints the desired value.
     stdio.writeln(len(primes))
