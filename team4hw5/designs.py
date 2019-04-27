@@ -1,0 +1,51 @@
+# Furkan MUDANYALI 20181701088
+# Emir ÖZTÜRK 20181701062
+# Please don't make me do something like this ever again.
+
+import stddraw, time
+
+stddraw.setCanvasSize(640, 640)
+stddraw.clear(stddraw.BLACK)
+stddraw.setPenColor(stddraw.GRAY)
+stddraw.filledPolygon([0.5, 0, 0.5, 1, 0.5], [0, 0.5, 1, 0.5, 0])
+stddraw.setPenColor(stddraw.WHITE)
+stddraw.filledPolygon([0.25, 0.25, 0], [0, 0.25, 0.25])
+stddraw.filledPolygon([0, 0.25, 0.25], [0.75, 0.75, 1])
+stddraw.filledPolygon([0.75, 0.75, 1], [0, 0.25, 0.25])
+stddraw.filledPolygon([0.75, 0.75, 1], [1, 0.75, 0.75])
+stddraw.show(msec=1000)
+
+stddraw.clear(stddraw.BLACK)
+stddraw.setPenColor(stddraw.GRAY)
+stddraw.filledPolygon([0.5, 0, 0.5, 1, 0.5], [0, 0.5, 1, 0.5, 0])
+stddraw.setPenColor(stddraw.WHITE)
+stddraw.filledPolygon([0.25, 0.375, 0.125, 0], [0, 0.125, 0.375, 0.25])
+stddraw.filledPolygon([0.75, 0.625, 0.875, 1], [0, 0.125, 0.375, 0.25])
+stddraw.filledPolygon([0.25, 0.375, 0.125, 0], [1, 0.875, 0.625, 0.75])
+stddraw.filledPolygon([0.75, 0.625, 0.875, 1], [1, 0.875, 0.625, 0.75])
+stddraw.show(msec=1000)
+
+stddraw.clear(stddraw.BLACK)
+stddraw.setPenColor(stddraw.GRAY)
+stddraw.filledPolygon([0.5, 0, 0.5, 1, 0.5], [0, 0.5, 1, 0.5, 0])
+stddraw.setPenColor(stddraw.WHITE)
+stddraw.filledSquare(0.125, 0.125, 0.125)
+stddraw.filledSquare(0.125, 0.875, 0.125)
+stddraw.filledSquare(0.875, 0.125, 0.125)
+stddraw.filledSquare(0.875, 0.875, 0.125)
+stddraw.show(msec=1000)
+
+stddraw.clear(stddraw.BLACK)
+stddraw.setPenColor(stddraw.GRAY)
+stddraw.filledPolygon([0.5, 0, 0.5, 1, 0.5], [0, 0.5, 1, 0.5, 0])
+stddraw.setPenColor(stddraw.WHITE)
+stddraw.filledPolygon([0.25, 0.375, 0.125, 0], [0, 0.125, 0.375, 0.25])
+stddraw.filledPolygon([0.75, 0.625, 0.875, 1], [0, 0.125, 0.375, 0.25])
+stddraw.filledPolygon([0.25, 0.375, 0.125, 0], [1, 0.875, 0.625, 0.75])
+stddraw.filledPolygon([0.75, 0.625, 0.875, 1], [1, 0.875, 0.625, 0.75])
+stddraw.setPenColor(stddraw.GRAY)
+stddraw.filledSquare(0.125, 0.125, 0.125)
+stddraw.filledSquare(0.125, 0.875, 0.125)
+stddraw.filledSquare(0.875, 0.125, 0.125)
+stddraw.filledSquare(0.875, 0.875, 0.125)
+stddraw.show()
